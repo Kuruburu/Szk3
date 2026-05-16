@@ -5,10 +5,10 @@ using Szk3.Country.Application.Common;
 
 namespace Szk3.Country.Application.Country.AddCity
 {
-    public sealed class AddCityCommandHandler: IRequestHandler<AddCompanyCommand, int>
+    public sealed class AddCompanyCommandHandler: IRequestHandler<AddCompanyCommand, int>
     {
         private readonly ICountryContext _countryContext;
-        public AddCityCommandHandler(ICountryContext countryContext)
+        public AddCompanyCommandHandler(ICountryContext countryContext)
         {
             _countryContext = countryContext;
         }

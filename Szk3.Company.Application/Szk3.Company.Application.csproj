@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="14.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Szk3.Common.Application\Szk3.Common.Application.csproj" />
+    <ProjectReference Include="..\Szk3.Company.Domain\Szk3.Company.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

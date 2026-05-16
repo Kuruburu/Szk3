@@ -5,10 +5,10 @@ using Szk3.Company.Application.models;
 
 namespace Szk3.Company.Application.Company.GetCompanies
 {
-    public sealed class GetCompaniesQueryHandler : IRequestHandler<GetJobPositionsQuery, List<CompanyDto>>
+    public sealed class GetJobPositionsQueryHandler : IRequestHandler<GetJobPositionsQuery, List<CompanyDto>>
     {
         private readonly ICompanyContext _companyContext;
-        public GetCompaniesQueryHandler(ICompanyContext companyContext) => _companyContext = companyContext;
+        public GetJobPositionsQueryHandler(ICompanyContext companyContext) => _companyContext = companyContext;
 
         public async Task<List<CompanyDto>> Handle(GetJobPositionsQuery request, CancellationToken cancellationToken)
         {

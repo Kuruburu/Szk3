@@ -10,7 +10,7 @@ namespace Szk3.Company.Application.Company.AddAddress
         private readonly ICompanyContext _companyContext;
         public AddAddressCommandHandler(ICompanyContext companyContext)
         {
-            _countryContext = companyContext;
+            _companyContext = companyContext;
         }
 
         public async Task<int> Handle(AddCompanyCommand request, CancellationToken cancellationToken)
@@ -29,6 +29,20 @@ namespace Szk3.Company.Application.Company.AddAddress
             await _countryContext.SaveChangesAsync(cancellationToken);
             var addedCity = country.Cities.Last();
             return addedCity.Id;
+        }
+
+        public async Task<int> Handle(AddAddressCommand request, CancellationToken cancellationToken)
+        {
+            _companyContext.Company.
+            var elo = _companyContext.
+            request.apartmentNumber
+            request.buildingNumber
+            request.country
+            request.city
+            request.country
+            request.street
+            request.postalCode 
+            request.isActive
         }
     }
    

@@ -34,6 +34,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szk3.Common.Abstractions", "Szk3.Common.Abstractions\Szk3.Common.Abstractions.csproj", "{CE915AF7-D54D-2B91-4430-FF272D14E84B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szk3.Company.Application", "Szk3.Company.Application\Szk3.Company.Application.csproj", "{AC0CE5A8-3B10-7E11-710B-23821ECAF532}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47D3B9A0-CD89-41C8-A3DA-E63FECF16B24} = {47D3B9A0-CD89-41C8-A3DA-E63FECF16B24}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szk3.Country.Infra", "Szk3.Country.Infra\Szk3.Country.Infra.csproj", "{E3470FAA-E906-683F-257C-7EE32A42C66C}"
 EndProject
