@@ -1,7 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
-using Szk3.Common.Domain.Entities;
+﻿using Szk3.Common.Domain.Entities;
 
-namespace Szk3.Country.Application.Entities.Company;
+namespace Szk3.Company.Domain.Entities.Company;
 
 public class Company : AggregateRoot<int>
 {

@@ -1,6 +1,6 @@
 ﻿using Szk3.Common.Domain.Entities;
 
-namespace Szk3.Country.Application.Entities.Company
+namespace Szk3.Company.Domain.Entities.Company
 {
     public class CompanyOwner : EntityBase<int>
     {
